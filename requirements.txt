@@ -1,0 +1,55 @@
+# api
+fastapi==0.111.0
+uvicorn==0.29.0
+pydantic==2.7.1
+pydantic[email]==2.7.1
+pydantic-settings==2.3.0
+python-multipart==0.0.9
+python-dotenv==1.0.1
+
+# database
+sqlalchemy==2.0.30
+asyncpg==0.29.0
+alembic==1.13.1
+
+# auth + security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+slowapi==0.1.9
+
+# agent
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-community>=0.3.0
+langchain-groq>=0.2.0
+boto3>=1.34.131,<1.35.0
+
+# mcp
+mcp==0.9.1
+
+# vector db
+qdrant-client==1.9.1
+
+# embeddings
+sentence-transformers==3.0.1
+
+# document parsing
+pypdf==4.2.0
+pdfplumber>=0.11.0
+python-docx==1.1.2
+
+# email
+# boto3 already listed above — used for SES + S3
+
+# scheduler
+apscheduler==3.10.4
+
+# utils
+requests==2.32.3
+python-magic==0.4.27
+
+# testing
+pytest==8.2.0
+pytest-asyncio==0.23.7
+httpx==0.27.0
